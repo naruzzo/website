@@ -1,3 +1,7 @@
+# IntelliJ / Vscode files
+.idea
+.vscode
+
 # Logs
 *.log
 
