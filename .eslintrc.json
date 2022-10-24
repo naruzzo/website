@@ -2,7 +2,7 @@
     "root": true,
     "env": {
         "browser": true,
-        "esnext": true,
+        "es6": true,
         "node": true
     },
     "extends": [

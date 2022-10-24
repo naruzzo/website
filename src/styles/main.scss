@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import "reseter.css/src/scss/reseter";
+@import "environments";
+@import "globals";
+@import "nprogress";
+
+.container {
+  max-width: var(--container-size, 720px);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,8 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@stitches/react': ^1.2.8
   '@swc/core': 1.3.10
   '@types/node': 18.11.3
+  '@types/nprogress': ^0.2.0
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.40.1
@@ -13,21 +15,27 @@ specifiers:
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-react: 7.31.10
   next: 12.3.1
+  nprogress: ^0.2.0
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
+  reseter.css: ^2.0.0
   sass: 1.55.0
   typescript: 4.8.4
 
 dependencies:
+  '@stitches/react': 1.2.8_react@18.2.0
   next: 12.3.1_2mygebwfgdyopr3fy2qddu2eli
+  nprogress: 0.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  reseter.css: 2.0.0
   typescript: 4.8.4
 
 devDependencies:
   '@swc/core': 1.3.10
   '@types/node': 18.11.3
+  '@types/nprogress': 0.2.0
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.40.1_c4zyna56jjjrggqkyejnaxjxfu
@@ -246,6 +254,14 @@ packages:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
     dev: true
 
+  /@stitches/react/1.2.8_react@18.2.0:
+    resolution: {integrity: sha512-9g9dWI4gsSVe8bNLlb+lMkBYsnIKCZTmvqvDG+Avnn69XfmHZKiaMrx7cgTaddq7aTPPmXiTsbFcUy0xgI4+wA==}
+    peerDependencies:
+      react: '>= 16.3.0'
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /@swc/core-android-arm-eabi/1.3.10:
     resolution: {integrity: sha512-yeW0dvv7SSmb0Y1Hhr9+QceoDjn2uulcaY+LUZ9Zt2UBHl/95c7QVgjDaE2B/lSlTV5En/81/q58lXoT/IqjGw==}
     engines: {node: '>=10'}
@@ -424,6 +440,10 @@ packages:
 
   /@types/node/18.11.3:
     resolution: {integrity: sha512-fNjDQzzOsZeKZu5NATgXUPsaFaTxeRgFXoosrHivTl8RGeV733OLawXsGfEk9a8/tySyZUyiZ6E8LcjPFZ2y1A==}
+    dev: true
+
+  /@types/nprogress/0.2.0:
+    resolution: {integrity: sha512-1cYJrqq9GezNFPsWTZpFut/d4CjpZqA0vhqDUPFWYKF1oIyBz5qnoYMzR+0C/T96t3ebLAC1SSnwrVOm5/j74A==}
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -1736,6 +1756,10 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
+  /nprogress/0.2.0:
+    resolution: {integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==}
+    dev: false
+
   /object-assign/4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
@@ -1953,6 +1977,11 @@ packages:
     resolution: {integrity: sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==}
     engines: {node: '>=8'}
     dev: true
+
+  /reseter.css/2.0.0:
+    resolution: {integrity: sha512-u98r3v0drXwxwRFhBywZOk+9LWoNVMy+tSClR6wJG+XXbrR/fpuuzbWQ8N5Uxczp3xMUX86E4PCWzitzsZ5GOg==}
+    dev: false
+    bundledDependencies: []
 
   /resolve-from/4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
